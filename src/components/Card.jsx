@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({manga, author}) => {
   return (
-    <div>Hola soy una tarjeta</div>
+    <div>
+      <h2>Manga: {manga}</h2>
+      <p>Autor: {author}</p>
+    </div>
   )
 }
 
